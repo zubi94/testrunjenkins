@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="10">
+<listeners>
+<listener class-name="CommonUtilities.listner"/>
+</listeners>
+<parameter name="eml" value="abc@yahoo.com"/>
+<parameter name="fname" value="Muhammad"/>
+<parameter name="lname" value="Zubair"/>
+<parameter name="phone" value="03001234567"/>
+<parameter name="psd" value="P12assword123"/>
+<parameter name="zipco" value="20871"/>
+<test name="target-chrome-test" thread-count="10">
+<parameter name="browser" value="chrome"/>
+<parameter name="URL" value="https://www.target.com"/>
+	<classes>
+	 <class name="protraining.testrun.Newaccount"/>
+	 <!-- <class name="Protrainingtech.practiceframework.Target"/>
+     <class name="Protrainingtech.practiceframework.Pagesignin"/>
+     <class name="Protrainingtech.practiceframework.Whatsnew"/> -->
+    </classes>
+</test>
+<!-- <test name="target-firefox-test" thread-count="10">
+<parameter name="browser" value="firefox"/>
+<parameter name="URL" value="https://www.target.com"/>
+<packages>
+	<package name = "Protrainingtech.practiceframework"/>
+</packages>
+</test>
+<test name="Home-Depot-chrome" thread-count="5">
+<parameter name="browser" value="chrome"/>
+<parameter name="URL" value="https://www.homedepot.com"/>
+<classes>
+	<class name="bcamphomedepot.newaccount2"/>
+	<class name="bcamphomedepot.logina"/>
+    <class name="bcamphomedepot.searchbutton"/>
+    </classes>
+</test>
+<test name="Home-Depot-firefox" thread-count="5">
+<parameter name="browser" value="firefox"/>
+<parameter name="URL" value="https://www.homedepot.com"/>
+<packages>
+	<package name="bcamphomedepot"></package>	
+</packages>
+</test> -->
+</suite>

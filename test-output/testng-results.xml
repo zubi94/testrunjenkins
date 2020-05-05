@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-05T17:57:01 EDT" name="Suite" finished-at="2020-05-05T17:57:39 EDT" duration-ms="38642">
+    <groups>
+    </groups>
+    <test started-at="2020-05-05T17:57:01 EDT" name="target-chrome-test" finished-at="2020-05-05T17:57:39 EDT" duration-ms="38642">
+      <class name="protraining.testrun.Newaccount">
+        <test-method is-config="true" signature="browsers(java.lang.String, java.lang.String)[pri:0, instance:protraining.testrun.Newaccount@5bfa9431]" started-at="2020-05-05T17:57:01 EDT" name="browsers" finished-at="2020-05-05T17:57:23 EDT" duration-ms="22629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.target.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsers -->
+        <test-method signature="createaccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:protraining.testrun.Newaccount@5bfa9431]" started-at="2020-05-05T17:57:23 EDT" name="createaccount" finished-at="2020-05-05T17:57:38 EDT" duration-ms="14361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Muhammad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Zubair]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[03001234567]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[P12assword123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccount -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:protraining.testrun.Newaccount@5bfa9431]" started-at="2020-05-05T17:57:39 EDT" name="afterClass" finished-at="2020-05-05T17:57:39 EDT" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- protraining.testrun.Newaccount -->
+    </test> <!-- target-chrome-test -->
+  </suite> <!-- Suite -->
+</testng-results>
