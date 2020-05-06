@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="false" thread-count="10">
-<listeners>
+<!-- <listeners>
 <listener class-name="CommonUtilities.listner"/>
-</listeners>
+</listeners> -->
 <parameter name="eml" value="abc@yahoo.com"/>
 <parameter name="fname" value="Muhammad"/>
 <parameter name="lname" value="Zubair"/>
