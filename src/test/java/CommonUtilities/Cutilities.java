@@ -8,12 +8,12 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Locale;
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -76,7 +76,7 @@ public class Cutilities {
 		int sec=dt.get(Calendar.SECOND);
 		
 		File pic=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(pic, new File(filePath+yr+"_"+mon+"_"+day+"_"+hr+"_"+min+"_"+sec+".jpg"));
+		FileHandler.copy(pic, new File(filePath+yr+"_"+mon+"_"+day+"_"+hr+"_"+min+"_"+sec+".jpg"));
 				}
 	}
 		
