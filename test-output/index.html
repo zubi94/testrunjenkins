@@ -149,6 +149,9 @@
   &lt;parameter name=&quot;eml&quot; value=&quot;abc@yahoo.com&quot;/&gt;
   &lt;parameter name=&quot;phone&quot; value=&quot;03001234567&quot;/&gt;
   &lt;parameter name=&quot;zipco&quot; value=&quot;20871&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;CommonUtilities.listner&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;10&quot; name=&quot;target-chrome-test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;parameter name=&quot;URL&quot; value=&quot;https://www.target.com&quot;/&gt;
@@ -197,12 +200,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createaccount')
 data.setCell(0, 2, 'protraining.testrun.Newaccount')
-data.setCell(0, 3, 13106);
+data.setCell(0, 3, 11405);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -235,11 +238,11 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">createaccount(abc@yahoo.com, Muhammad, Zubair, 03001234567, P12assword123)</span>
-                <span class="method-start">33920 ms</span>
+                <span class="method-start">21674 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">47085 ms</span>
+                <span class="method-start">34164 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

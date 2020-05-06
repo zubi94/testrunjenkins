@@ -21,7 +21,7 @@ import org.testng.annotations.Parameters;
 
 public class Cutilities {
 	
-	static String filePath = "C:\\Users\\lala94\\eclipse-workspace\\practiceframework\\Screenshots\\";
+	static String filePath = "C:\\Users\\lala94\\eclipse-workspace\\testrun\\Screenshots\\";
 	protected static WebDriver driver;
 	@Parameters({"browser","URL"})
 	@BeforeClass
