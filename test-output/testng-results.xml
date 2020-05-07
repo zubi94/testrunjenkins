@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-06T16:34:08 EDT" name="Suite" finished-at="2020-05-06T16:35:15 EDT" duration-ms="67479">
+  <suite started-at="2020-05-06T22:06:03 EDT" name="Suite" finished-at="2020-05-06T22:07:22 EDT" duration-ms="78614">
     <groups>
     </groups>
-    <test started-at="2020-05-06T16:34:08 EDT" name="target-chrome-test" finished-at="2020-05-06T16:35:15 EDT" duration-ms="67479">
+    <test started-at="2020-05-06T22:06:03 EDT" name="target-chrome-test" finished-at="2020-05-06T22:07:22 EDT" duration-ms="78614">
       <class name="protraining.testrun.Newaccount">
-        <test-method is-config="true" signature="browsers(java.lang.String, java.lang.String)[pri:0, instance:protraining.testrun.Newaccount@37918c79]" started-at="2020-05-06T16:34:08 EDT" name="browsers" finished-at="2020-05-06T16:34:57 EDT" duration-ms="49201" status="PASS">
+        <test-method is-config="true" signature="browsers(java.lang.String, java.lang.String)[pri:0, instance:protraining.testrun.Newaccount@37918c79]" started-at="2020-05-06T22:06:03 EDT" name="browsers" finished-at="2020-05-06T22:06:55 EDT" duration-ms="51410" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browsers -->
-        <test-method signature="createaccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:protraining.testrun.Newaccount@37918c79]" started-at="2020-05-06T16:34:57 EDT" name="createaccount" finished-at="2020-05-06T16:35:13 EDT" duration-ms="15401" status="PASS">
+        <test-method signature="createaccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:protraining.testrun.Newaccount@37918c79]" started-at="2020-05-06T22:06:55 EDT" name="createaccount" finished-at="2020-05-06T22:07:17 EDT" duration-ms="22239" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createaccount -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:protraining.testrun.Newaccount@37918c79]" started-at="2020-05-06T16:35:15 EDT" name="afterClass" finished-at="2020-05-06T16:35:15 EDT" duration-ms="396" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:protraining.testrun.Newaccount@37918c79]" started-at="2020-05-06T22:07:21 EDT" name="afterClass" finished-at="2020-05-06T22:07:22 EDT" duration-ms="1027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
